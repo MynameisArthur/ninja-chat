@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import db from '@/firebase/init';
 import NewMessage from '@/components/NewMessage';
 export default {
     name: 'Chat',
